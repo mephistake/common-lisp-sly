@@ -73,6 +73,7 @@
           sly-repl-history-remove-duplicates t
           sly-repl-history-trim-whitespaces t
           sly-net-coding-system 'utf-8-unix)
+    :config
     (sly-setup '(sly-fancy))
     (spacemacs/set-leader-keys-for-major-mode 'lisp-mode
       "'" 'sly
